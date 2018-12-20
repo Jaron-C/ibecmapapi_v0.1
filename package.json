@@ -8,7 +8,7 @@
     "dev": "npm run lint && webpack-dev-server --config webpack.dev.config.js --inline",
     "lint": "./node_modules/.bin/eslint js"
   },
-  "author": "Mason Lawlor",
+  "author": "Jaron Call",
   "license": "ISC",
   "devDependencies": {
     "animate.css": "^3.5.2",
