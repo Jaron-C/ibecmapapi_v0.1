@@ -1,4 +1,145 @@
+/* NAVBAR | included */
+.navbar {
+  background-color: #ededed;
+  padding-bottom: 15px;
+}
+
+.navbar-brand {
+  color: #3d3d3d;
+  font-family: Lato;
+  font-size: 20px;
+  margin-top:5px;
+}
+
+/* HEADER */
 .site-header {
-  background: $brand-primary;
+  background: #256193;
   color: white;
+}
+
+/* BUTTON */
+.btn-primary {
+  margin-bottom: 50px;
+  margin-top: 15px;
+}
+
+.btn {
+  background: #83C752;
+  border: #83C752;
+  color: #3d3d3d;
+  font-family: Lato;
+  font-weight: 400;
+  transistion: all .5s ease;
+}
+
+/* SECTION 1 */
+
+/* MAP API */
+
+#map {
+  height: 60%;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  // margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+ #description {
+  font-family: Lato;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+#infowindow-content .title {
+        font-weight: bold;
+      }
+
+#infowindow-content {
+        display: none;
+      }
+
+#map #infowindow-content {
+        display: inline;
+      }
+
+.pac-card {
+  width: 100%;
+  // height: 20%;
+  max-height: 30%;
+  min-height: 10%;
+  margin: 0 0 0 0;
+  padding-bottom: 10px;
+  border-radius: 2px 0 0 2px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  outline: none;
+  box-shadow: 0px 5px 10px #3d3d3d;
+  background-color: #256193;
+  opacity: 0.8;
+  font-family: Lato;
+}
+
+.pac-controls {
+        display: inline-block;
+        padding: 0px 0px;
+      }
+
+.pac-controls label {
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+#pac-container {
+  width: 100%;
+  height: 100%;
+}
+
+#pac-input {
+  background-color: #fff;
+  font-family: Lato;
+  font-size: 15px;
+  font-weight: 300;
+  float: right;
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
+  padding-left: 15px;
+  text-overflow: ellipsis;
+  width: 280px;
+  height: 40px;
+  text-align: left;
+}
+
+#pac-input:focus {
+  border-color: #32BAA9;
+}
+
+.text {
+  color: #fff;
+  font-family: Lato;
+  margin-top: 15px;
+  margin-left: 20px;
+  float: left;
+  opacity: 100%;
+}
+
+#title {
+  color: #fff;
+  background-color: #4d90fe;
+  font-family: Lato;
+  font-size: 25px;
+  font-weight: 500;
+  padding: 6px 12px;
+}
+
+.col-md-6 {
+  padding-left: 5px;
+  padding-right: 5px;
 }
